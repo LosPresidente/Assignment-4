@@ -8,7 +8,7 @@ namespace Assignment_4
     {
         int ID;
         string description;
-        float availableQty;
+        public float availableQty;
         float unitPrice;
 
         //this is the constructors

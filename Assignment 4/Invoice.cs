@@ -33,16 +33,20 @@ namespace Assignment_4
             this.invDate = invDate;
         }
 
-        //This method is not done yet
+        //So this method takes in the information needed for the invoice entry line, increases the line by 1 (new line), calls invoiceEntry Constructor to create a new line
         public void addInvEntry(Item item, int ReqQuantity, int lineNo){
-            lineNo+=1;
-            InvoiceEntry invoice = new InvoiceEntry(lineNo, item, ReqQuantity);
-
-
+            //here I check if the quantity is even available
+            if(item.availableQty < ReqQuantity){
+                Console.WriteLine($"Requested quantity is not available, please select smaller quantity");
+            }else if(item.availableQty > ReqQuantity){
+                lineNo+=1;
+                InvoiceEntry invoice = new InvoiceEntry(lineNo, item, ReqQuantity);
+                item.availableQty = item.availableQty - ReqQuantity;
+            }
         }
 
-        public void removeInvEntry(int lineNo){
-            
+        public bool removeInvEntry(int lineNo, bool rozhodnuti){
+            return rozhodnuti;
         }
     }
 }
