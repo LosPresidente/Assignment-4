@@ -1,3 +1,4 @@
+//Joanna Summerlin, Ryan Gross, Ian Bilek
 using System;
 using System.Collections.Generic;
 
@@ -33,12 +34,14 @@ namespace Assignment_4
         }
 
         //This method is not done yet
-        public addInvEntry(int Item, int ReqQuantity){
-            lineNo[] = lineNo[+1];
+        public void addInvEntry(Item item, int ReqQuantity, int lineNo){
+            lineNo+=1;
+            InvoiceEntry invoice = new InvoiceEntry(lineNo, item, ReqQuantity);
+
 
         }
 
-        public void removeInvEntry(int lineNo[]){
+        public void removeInvEntry(int lineNo){
             
         }
     }

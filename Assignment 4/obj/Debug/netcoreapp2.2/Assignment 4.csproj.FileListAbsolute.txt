@@ -1,0 +1,4 @@
+C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.csprojAssemblyReference.cache
+C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.csproj.CoreCompileInputs.cache
+C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.AssemblyInfoInputs.cache
+C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.AssemblyInfo.cs

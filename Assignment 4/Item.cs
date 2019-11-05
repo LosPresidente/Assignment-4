@@ -1,3 +1,4 @@
+//Joanna Summerlin, Ryan Gross, Ian Bilek
 using System;
 using System.Collections.Generic;
 
@@ -8,12 +9,12 @@ namespace Assignment_4
         int ID;
         string description;
         float availableQty;
-        int unitPrice;
+        float unitPrice;
 
         //this is the constructors
         public Item(){}
 
-        public Item(int ID, string description, int unitPrice, float availableQty){
+        public Item(int ID, string description, float unitPrice, int availableQty){
             this.ID = ID;
             this.description = description;
             this.unitPrice = unitPrice;
@@ -49,7 +50,7 @@ namespace Assignment_4
             }
         }
 
-        public int getPrice(){
+        public float getPrice(){
             return unitPrice;
         }
 

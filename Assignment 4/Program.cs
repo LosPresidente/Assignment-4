@@ -1,17 +1,13 @@
-﻿using System;
+﻿//Joanna Summerlin, Ryan Gross, Ian Bilek
+using System;
 using System.Collections.Generic;
 
-namespace HW4
+namespace Assignment_4
 {
     class Program
     {
-            static void Main(string[] args)
-        {
-
             
-
-        }
-        /* Crazy Lazrig's code I am not going to worry about right now.
+        /* Crazy Lazrig's code I am not going to worry about right now. */
         static char menu(){
             Console.WriteLine("\n\nInvoice Menu");
             Console.WriteLine("---------------------");
@@ -23,7 +19,9 @@ namespace HW4
             Console.WriteLine("Select 1,2,3,4 or 0 to Exit :");
             char ch =Console.ReadKey().KeyChar; 
         return ch;
-        }        
+        }      
+
+
         static void Main(string[] args)
         { char ch;
           int j =1;
@@ -92,7 +90,8 @@ namespace HW4
                 }
 
             }while (ch!='0');  // exit the program when user enters 0
-            */
+            
         
+        }
     }
 }
