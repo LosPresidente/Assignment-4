@@ -11,7 +11,7 @@ namespace Assignment_4
         public int lineNo;
         public int Qnty;
 
-        public Item ItemObjects;
+        public Item ItemObject;
 
         //wiring up the InvoiceEntry and the Item Aggregation relationship to they can talk to each other
         //List<Item> ItemObjects = new List<Item>();
@@ -20,7 +20,12 @@ namespace Assignment_4
         
         public InvoiceEntry(string invoiceString){}
 
-        public InvoiceEntry(int lineNo, Item ItemObjects, int ReqQantity){}
+        public InvoiceEntry(int lineNo, Item ItemObjects, int ReqQantity)
+        {
+            this.lineNo = lineNo;
+            ItemObject = ItemObjects;
+            Qnty = ReqQantity;
+        }
 
         // public void setIE_IRelationship(Item polozka){
         //     ItemObjects.Add(polozka);
@@ -48,25 +53,24 @@ namespace Assignment_4
 //the
         public string getDescription()
         {
-            return ItemObjects.getItemDescription();
+            return ItemObject.getItemDescription();
         }
         public float getUnitPrice()
         {
-            return ItemObjects.getPrice();
+            return ItemObject.getPrice();
+        }
+
+        public void quantityUpdate()
+        {
+            ItemObject.updateAvlblQty(Qnty);
         }
 
         public void displayInfo()
         {
-            
             float price = getUnitPrice();
 
             float total = (Qnty * price);
-
-            Console.WriteLine("Line #: {0}", lineNo);
-            Console.WriteLine("Description: {0}", getDescription());
-            Console.WriteLine("Quantity: {0}", Qnty);
-            Console.WriteLine("Unit Price: {0}", getUnitPrice());
-            Console.WriteLine("Total: {0}", total);
+            Console.WriteLine("   {0}     {1}      {2}         {3}      {4}", lineNo, getDescription(), Qnty, getUnitPrice(), total);
         }
     }
 }

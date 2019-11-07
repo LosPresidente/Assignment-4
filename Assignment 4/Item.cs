@@ -27,27 +27,29 @@ namespace Assignment_4
 
 //this method updates the quantity of product available, it does make sure the quantity is >0
         public void updateAvlblQty(int ID){
-            string slovo;
-            int cislo;
+            // string slovo;
+            // int cislo;
 
-            Console.WriteLine($"Current quantity of {description} is {availableQty}");
-            Console.WriteLine($"If you would like to add/subtract quantity of this object, please type in 'plus' or 'minus' followed by the quantity.");
-            slovo = Console.ReadLine();
-            if(slovo == "plus"){
-                cislo = int.Parse(Console.ReadLine());
-                availableQty = availableQty + cislo;
-                Console.WriteLine($"The new Quantity for {description} is {availableQty}");
-            }else if(slovo == "minus"){
-                cislo = int.Parse(Console.ReadLine());
-                if((availableQty - cislo)<0){
-                    Console.WriteLine($"You are trying to subtrack more than available quanitity, please subtrack smaller number");
-                }else if((availableQty - cislo)>= 0){
-                    availableQty = availableQty - cislo;
-                    Console.WriteLine($"The new quantity of {description} is {availableQty}");
-                }
-            }else{
-                Console.WriteLine($"This word is not recognized, please enter in 'plus' or 'minus'");
-            }
+            // Console.WriteLine($"Current quantity of {description} is {availableQty}");
+            // Console.WriteLine($"If you would like to add/subtract quantity of this object, please type in 'plus' or 'minus' followed by the quantity.");
+            // slovo = Console.ReadLine();
+            // if(slovo == "plus"){
+            //     cislo = int.Parse(Console.ReadLine());
+            //     availableQty = availableQty + cislo;
+            //     Console.WriteLine($"The new Quantity for {description} is {availableQty}");
+            // }else if(slovo == "minus"){
+            //     cislo = int.Parse(Console.ReadLine());
+            //     if((availableQty - cislo)<0){
+            //         Console.WriteLine($"You are trying to subtrack more than available quanitity, please subtrack smaller number");
+            //     }else if((availableQty - cislo)>= 0){
+            //         availableQty = availableQty - cislo;
+            //         Console.WriteLine($"The new quantity of {description} is {availableQty}");
+            //     }
+            // }else{
+            //     Console.WriteLine($"This word is not recognized, please enter in 'plus' or 'minus'");
+            // }
+
+            
         }
 
         public float getPrice(){
@@ -64,7 +66,7 @@ namespace Assignment_4
 
         public void displayItem()
         {
-            Console.WriteLine($"Item's ID is: {ID},\n the description is: {description},\n the available quantity is: {availableQty},\n and the price is: {unitPrice}");
+            Console.WriteLine($" Item's ID is: {ID}, the description is: {description}, the available quantity is: {availableQty}, and the price is: {unitPrice}");
         }
     }
 }
