@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\VSC\\CIDM4360 (Lazrig)\\Assignment-4-master\\Assignment 4\\Assignment 4.csproj": {}
+  },
+  "projects": {
+    "C:\\VSC\\CIDM4360 (Lazrig)\\Assignment-4-master\\Assignment 4\\Assignment 4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VSC\\CIDM4360 (Lazrig)\\Assignment-4-master\\Assignment 4\\Assignment 4.csproj",
+        "projectName": "Assignment 4",
+        "projectPath": "C:\\VSC\\CIDM4360 (Lazrig)\\Assignment-4-master\\Assignment 4\\Assignment 4.csproj",
+        "packagesPath": "C:\\Users\\Ianbi\\.nuget\\packages\\",
+        "outputPath": "C:\\VSC\\CIDM4360 (Lazrig)\\Assignment-4-master\\Assignment 4\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ianbi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
