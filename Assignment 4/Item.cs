@@ -6,10 +6,10 @@ namespace Assignment_4
 {
     class Item
     {
-        int ID;
-        string description;
+        public int ID;
+        public string description;
         public float availableQty;
-        float unitPrice;
+        public float unitPrice;
 
         //this is the constructors
         public Item(){}
@@ -62,8 +62,9 @@ namespace Assignment_4
             return ID;
         }
 
-        public void displayItem(){
-            Console.WriteLine($"Item's ID is: {ID}, the description is: {description}, the available quantity is: {availableQty} and the price is: {unitPrice}");
+        public void displayItem()
+        {
+            Console.WriteLine($"Item's ID is: {ID},\n the description is: {description},\n the available quantity is: {availableQty},\n and the price is: {unitPrice}");
         }
     }
 }

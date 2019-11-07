@@ -2,3 +2,14 @@ C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.cspro
 C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.csproj.CoreCompileInputs.cache
 C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.AssemblyInfoInputs.cache
 C:\VSC\CIDM4360 (Lazrig)\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.AssemblyInfo.cs
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.csprojAssemblyReference.cache
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.csproj.CoreCompileInputs.cache
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.AssemblyInfoInputs.cache
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.AssemblyInfo.cs
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\bin\Debug\netcoreapp2.2\Assignment 4.deps.json
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\bin\Debug\netcoreapp2.2\Assignment 4.runtimeconfig.json
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\bin\Debug\netcoreapp2.2\Assignment 4.runtimeconfig.dev.json
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\bin\Debug\netcoreapp2.2\Assignment 4.dll
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\bin\Debug\netcoreapp2.2\Assignment 4.pdb
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.dll
+C:\Users\joann\Documents\School\2019 Fall\Obeject Oriented\Assignment-4\Assignment 4\obj\Debug\netcoreapp2.2\Assignment 4.pdb

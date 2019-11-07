@@ -67,6 +67,7 @@ namespace Assignment_4
                             inv1.printInvoice();
                             Console.WriteLine("-------------------------------------------------");
                             Console.WriteLine("Enter the line# for the item you want to remove ?");
+                            //here he reads in a value and passes it into removeInvEntry
                             int idxRmv = int.Parse( Console.ReadLine());
                             if(inv1.removeInvEntry(idxRmv)) // this method should return a boolean to show if item successfully removed
                                 Console.WriteLine("item successfully removed and Qty updated");
@@ -89,9 +90,7 @@ namespace Assignment_4
                             break;
                 }
 
-            }while (ch!='0');  // exit the program when user enters 0
-            
-        
+            }while (ch!='0');  // exit the program when user enters 0        
         }
     }
 }
